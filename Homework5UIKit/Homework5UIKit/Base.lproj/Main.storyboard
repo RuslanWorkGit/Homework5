@@ -74,9 +74,15 @@
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
                             <constraint firstItem="bsI-iH-5Al" firstAttribute="top" secondItem="MWO-Sb-c6G" secondAttribute="bottom" constant="40" id="1JM-iB-lax"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="MWO-Sb-c6G" secondAttribute="trailing" constant="25" id="5UH-1P-dbc"/>
-                            <constraint firstItem="MWO-Sb-c6G" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="200" id="8qU-rT-TbX"/>
-                            <constraint firstItem="MWO-Sb-c6G" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="25" id="Vew-l5-nVJ"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="MWO-Sb-c6G" secondAttribute="trailing" constant="25" id="5UH-1P-dbc">
+                                <variation key="heightClass=regular-widthClass=regular" constant="100"/>
+                            </constraint>
+                            <constraint firstItem="MWO-Sb-c6G" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="200" id="8qU-rT-TbX">
+                                <variation key="heightClass=regular-widthClass=regular" constant="400"/>
+                            </constraint>
+                            <constraint firstItem="MWO-Sb-c6G" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="25" id="Vew-l5-nVJ">
+                                <variation key="heightClass=regular-widthClass=regular" constant="100"/>
+                            </constraint>
                             <constraint firstItem="bsI-iH-5Al" firstAttribute="width" secondItem="8bC-Xf-vdC" secondAttribute="width" multiplier="0.4" id="Wsj-CX-NNs"/>
                             <constraint firstItem="bsI-iH-5Al" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="X9c-hh-9Lk"/>
                         </constraints>
